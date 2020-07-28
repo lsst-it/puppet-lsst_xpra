@@ -35,6 +35,8 @@ To use load the lsst_xpra puppet module, declare this class in your manifest wit
 The following parameters let you extend lsst_xpra options beyond the default:
 
   * `lsst_xpra::packages` - Array of prerequisite packages to install via YUM
+  * `lsst_xpra::yumrepo_baseurl` - String of baseurl for xpra yum repository
+  * `lsst_xpra::yumrepo_gpgkey` - String of path to gpg key for xpra yum repository
 
 ## Limitations
 
