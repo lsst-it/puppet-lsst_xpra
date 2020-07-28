@@ -1,0 +1,14 @@
+---
+lsst_xpra::packages:
+  - libX11
+  - libX11-common
+  - libX11-devel
+  - xorg-x11-apps
+  - xorg-x11-server-common
+  - xorg-x11-server-Xorg
+  - xorg-x11-xauth
+  - xpra
+
+lsst_xpra::yumrepo_baseurl: 'https://xpra.org/dists/CentOS/$releasever/$basearch/'
+lsst_xpra::yumrepo_gpgkey: 'https://xpra.org/gpg.asc'
+
